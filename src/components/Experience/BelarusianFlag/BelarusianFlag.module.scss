@@ -1,0 +1,23 @@
+@import "../../../assets/styles/entry.scss";
+
+.wrap {
+  background-color: $white;
+  display: inline-flex;
+  height: 12px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px -1px 4px, rgba(0, 0, 0, 0.08) 0px 1px 4px;
+  position: relative;
+  width: 20px;
+  align-items: center;
+}
+
+.red {
+  background-color: red;
+  height: 4px;
+  width: 100%;
+}
+
+@media print {
+  .wrap {
+    visibility: hidden;
+  }
+}
