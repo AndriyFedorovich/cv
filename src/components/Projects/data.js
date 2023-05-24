@@ -2,6 +2,13 @@ export const sectionTitle = 'Projects';
 
 export const projects = [
   {
+    title: 'Mobile application for the hypermarket Green',
+    role: 'React Native developer at PixelPlex',
+    description: ' The app provides users with a convenient way to explore the products and services offered by the Green hypermarket. I implemented features such as fast product search, detailed product information, the ability to create shopping lists, and easy online ordering. Additionally, the app includes functionality that allows users to stay updated on promotions and discounts on products, helping them save money while shopping. Together with the team, we aimed to create a user-friendly and intuitive mobile application to ensure maximum comfort for "Hypermarket Green" users',
+    technologies: 'React, React Native, TypeScript, Redux',
+    tools: 'VS Code, Xcode, Android Studio, GitLab, Swagger, Figma'
+  },
+  {
     title: 'Mars',
     role: 'Frontend developer at Epam Systems',
     description: 'Extension and maintenance of the user interface system (Creating new components, supporting multi-theming, updating the codebase)',
@@ -10,13 +17,12 @@ export const projects = [
   },
 
   {
-    title: 'FLAK',
+    title: 'FLAK - Multi-Signature Document Flow Management App',
     role: 'Frontend developer at PixelPlex',
-    description: 'Blockchain-based document management platform that enables executives and shareholders to vote and pass resolutions within a single web application',
-    technologies: 'React, Next.js, CSS Modules',
+    description: 'Permissioned blockchain document management platform that enables executives and shareholders to vote and pass resolutions within one web application',
+    technologies: 'React, Next.js, TypeScript, CSS Modules',
     tools: 'VS Code, Slak, GitLab, Swagger, Figma, Jira'
   },
-
   {
     title: 'Corporate Website and Blog System for PixelPlex',
     role: 'Frontend developer at PixelPlex',
@@ -27,14 +33,13 @@ export const projects = [
       'Performed an adaptation of the service to mobile devices',
       'Integrated accessibility HTML standards',
     ],
-    technologies: 'React, Vue, Next.js, CSS Modules',
+    technologies: 'React, Vue, Next.js, TypeScript, CSS Modules',
     tools: 'WordPress, VS Code, Slak, PageSpeed Insights, GitLab, AMP, Figma, Jira',
   },
-
   {
-    title: 'Echo',
+    title: 'Echo - Blockchain ecosystem with DeFi-styled bridges',
     role: 'Frontend developer at PixelPlex',
-    description: 'Echo is a blockchain application development platform and network powered by the integration of Bitcoin and smart contracts. The platform enables efficient decentralized applications for Bitcoin and Ethereum, with advanced functionality, flexibility, and usability. The Echo project includes a lot of services inside',
+    description: 'High-end network for building smart contracts and decentralized applications with EVM support, fast finality consensus mechanism, and inter-blockchain communication protocol',
     participation: [
       'Developed desktop crypto wallets: Blip, EchoWallet',
       'Developed Metamask like browser extension crypto wallet - Bridge',

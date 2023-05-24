@@ -4,7 +4,7 @@ export const sectionTitle = 'Work Experience';
 
 export const places = [
   {
-    title: 'Senior Frontend Developer',
+    title: 'Senior Frontend Developer / React Native Developer',
     company: 'Gosu.team',
     location: 'Poland, Warsaw',
     locationFlag: <span>🇵🇱</span>,
@@ -12,7 +12,7 @@ export const places = [
     link: 'https://gosu.team'
   },
   {
-    title: 'Senior Frontend Developer',
+    title: 'Senior Frontend Developer / React Native Developer',
     company: 'PixelPlex',
     location: 'Remote',
     locationFlag: <span>🌍</span>,
