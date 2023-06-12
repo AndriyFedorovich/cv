@@ -1,7 +1,6 @@
 import js from './assets/js.svg';
 import ts from './assets/ts.svg';
 import react from './assets/react.svg';
-import reactNative from './assets/react-native.svg';
 import cssModules from './assets/css-modules.svg';
 import next from './assets/next.svg';
 import figma from './assets/figma.svg';
@@ -24,7 +23,7 @@ export const stack = [{
   image: react,
 },{
   value: 'React Native',
-  image: reactNative,
+  image: react,
 }, {
   value: 'CSS Modules',
   image: cssModules,

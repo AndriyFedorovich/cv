@@ -28,9 +28,9 @@ $ui-height-m: 38px;
 $ui-height-l: 42px;
 
 body {
-  --bg: rgba(255, 255, 255, 0.999);
-  --text-color: rgb(22, 22, 22);
-  --btn-color: rgb(22, 22, 22);
+  --bg: #f3f4f5;
+  --text-color: #31373d;
+  --btn-color: #31373d;
   --filter-to-white: invert(0);
 
   transition: background-color $speed, color $speed;
@@ -40,8 +40,8 @@ body {
 
 .dark {
   --bg: #161616;
-  --text-color: rgba(255, 255, 255, 0.999);
-  --btn-color: rgb(255, 255, 255);
+  --text-color: #f3f4f5;
+  --btn-color: #f3f4f5;
   --filter-to-white: invert(100%);
   @media print {
     --text-color: #161616;

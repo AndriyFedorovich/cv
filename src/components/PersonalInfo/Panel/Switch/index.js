@@ -36,14 +36,14 @@ const Switcher = ({ size }) => {
       ref={swiperRef}
       className={styles[`size-${size}`]}
     >
-      <div ref={sliderRef} className={styles.slider} />
-      <div className={styles.options}>
+      <span ref={sliderRef} className={styles.slider} />
+      <span className={styles.options}>
         {options.map(({ title, element }, idx) => (
-          <div className={styles.option} ref={elementsRef.current[idx]} key={title}>
+          <span className={styles.option} ref={elementsRef.current[idx]} key={title}>
             {element}
-          </div>
+          </span>
         ))}
-      </div>
+      </span>
     </button>
   );
 };

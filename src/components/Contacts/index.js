@@ -4,7 +4,9 @@ import s from './Contacts.module.scss';
 
 const Contacts = () => (
   <div className={s.wrap}>
-    <p className={s.phone}>{phone}</p>
+    <a className={s.phone} href={`tel:${phone}`} aria-label={`Phone number: ${phone}`}>
+      {phone}
+    </a>
     <span className={s.separator} />
     <a href={`mailto:${mail}`} className={s.mail}>
       {mail}

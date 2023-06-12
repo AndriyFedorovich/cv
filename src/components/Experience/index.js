@@ -1,4 +1,3 @@
-import React, { memo } from 'react';
 import { format } from 'date-fns'
 import { getPeriod } from '../../helpers/date.helper';
 import { sectionTitle, places } from './data';
@@ -15,26 +14,26 @@ const Experience = () => (
     }) => (
       <div key={startDate} className={s.place}>
         <div className={s.row}>
-        <p>
-          {title} at {link ? <a target="_blank" rel="noopener noreferrer" href={link}>{company}</a> : company}
-        </p>
-        <span className={s.location}>
-          <p className={s.locationText}>{location}</p>
-          {!!locationFlag && <span className={s.locationFlag}>
-            {locationFlag}
-          </span>}
-        </span>
+          <p>
+            {title} at {link ? <a target="_blank" rel="noopener noreferrer" href={link}>{company}</a> : company}
+          </p>
+          <div className={s.location}>
+            <p className={s.locationText}>{location}</p>
+            {!!locationFlag && <span className={s.locationFlag}>
+              {locationFlag}
+            </span>}
+          </div>
         </div>
-        <p>
+        <span>
           {`${format(startDate, 'MMM yyyy')} - ${endDate ? format(endDate, 'MMM yyyy') : 'Present'}`}
-          <span className={s.period}>
-            {getPeriod(startDate, endDate)}
-          </span>
-        </p>
+        </span>
+        <span className={s.period}>
+          {getPeriod(startDate, endDate)}
+        </span>
       </div>
     ))}
     </div>
   </>
 );
 
-export default memo(Experience);
+export default Experience;

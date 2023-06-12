@@ -13,7 +13,6 @@ const Social = () => (
         alt={title}
       />
     ))}
-
   </div>
 );
 

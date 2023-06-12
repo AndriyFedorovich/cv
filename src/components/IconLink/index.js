@@ -9,7 +9,7 @@ const IconLink = ({
     className={s.icon}
     href={url}
     target="_blank"
-    rel="noreferrer nofollow noopener"
+    rel="noreferrer noopener"
     {...props}
   >
     <img src={image} alt={alt} />

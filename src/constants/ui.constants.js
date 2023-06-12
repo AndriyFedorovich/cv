@@ -1,5 +1,3 @@
-
-
 export const months = [
   { shortValue: 'Jan', key: 0, value: 'January' },
   { shortValue: 'Feb', key: 1, value: 'February' },
