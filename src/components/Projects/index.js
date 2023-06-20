@@ -21,23 +21,8 @@ const Projects = () => (
               <span className={s.key}>Description:</span>
               <p>{description}</p>
             </> : null}
-
-          {!!participation?.length &&
-            <>
-              <span className={s.key}>Participation:</span>
-              <ul className={s.list}>
-                {participation.map(participationItem =>
-                  <li key={participationItem}>{participationItem}</li>)
-                }
-              </ul>
-            </>
-          }
-
           <span className={s.key}>Technologies:</span>
           <p>{technologies}</p>
-
-          <span className={s.key}>Tools:</span>
-          <p>{tools}</p>
         </div>
       </div>
     ))}

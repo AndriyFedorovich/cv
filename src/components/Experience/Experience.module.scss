@@ -8,8 +8,11 @@
 
 .row {
   display: flex;
-
+  b {
+    font-weight: 600;
+  }
   a {
+    font-weight: 600;
     text-decoration: underline;
   }
 }

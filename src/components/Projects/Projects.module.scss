@@ -10,7 +10,7 @@
   @include text();
   position: relative;
   &:not(:first-child) {
-    margin-top: 30px;
+    margin-top: 20px;
     &:before {
       content: "";
       display: block;
@@ -19,11 +19,11 @@
       background-color: var(--text-color);
       transition: background-color 0.2s;
       opacity: 0.1;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
   }
   &:first-child {
-    margin-top: 30px;
+    margin-top: 20px;
 
     @include max-vw($md) {
       margin-top: 16px;

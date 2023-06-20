@@ -1,15 +1,8 @@
 @mixin h1($font-weight: 500) {
-  font-size: 70px;
   line-height: 120%;
+  font-size: 50px;
   font-weight: $font-weight;
   letter-spacing: 0.8px;
-  @include max-vw($xxl) {
-    font-size: 60px;
-  }
-
-  @include max-vw($xl) {
-    font-size: 55px;
-  }
 
   @include max-vw($lg) {
     font-size: 45px;
@@ -26,17 +19,9 @@
 }
 
 @mixin h2($font-weight: 500) {
-  font-size: 35px;
-  line-height: 140%;
+  font-size: 28px;
+  line-height: 120%;
   font-weight: $font-weight;
-
-  @include max-vw($xxl) {
-    font-size: 32px;
-  }
-
-  @include max-vw($hd) {
-    font-size: 28px;
-  }
 
   @include max-vw($md) {
     font-size: 25px;

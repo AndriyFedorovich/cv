@@ -15,13 +15,10 @@ const Experience = () => (
       <div key={startDate} className={s.place}>
         <div className={s.row}>
           <p>
-            {title} at {link ? <a target="_blank" rel="noopener noreferrer" href={link}>{company}</a> : company}
+            {title} at {link ? <a target="_blank" rel="noopener noreferrer" href={link}>{company}</a> : <b>{company}</b>}
           </p>
           <div className={s.location}>
             <p className={s.locationText}>{location}</p>
-            {!!locationFlag && <span className={s.locationFlag}>
-              {locationFlag}
-            </span>}
           </div>
         </div>
         <span>

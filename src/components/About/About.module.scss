@@ -1,11 +1,6 @@
 @import "../../assets/styles/entry.scss";
 
-.list {
-  margin-bottom: 40px;
-  margin-top: 40px;
-
+.root {
+  margin: 24px 0;
   @include text();
-  li {
-    @include li();
-  }
 }
