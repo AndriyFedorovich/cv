@@ -3,4 +3,8 @@
 .root {
   margin: 24px 0;
   @include text();
+
+  b {
+    font-weight: 500;
+  }
 }
